@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CareerPulse AI – MVP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>CareerPulse AI</h1>
+    <p>AI-Powered Career Advisor (MVP)</p>
+
+    <label>Education Level</label>
+    <select id="education">
+      <option value="">Select</option>
+      <option value="school">School</option>
+      <option value="college">College</option>
+      <option value="postgrad">Postgraduate</option>
+    </select>
+
+    <label>Primary Skill</label>
+    <select id="skill">
+      <option value="">Select</option>
+      <option value="technical">Technical</option>
+      <option value="creative">Creative</option>
+      <option value="analytical">Analytical</option>
+      <option value="communication">Communication</option>
+    </select>
+
+    <label>Work Preference</label>
+    <select id="work">
+      <option value="">Select</option>
+      <option value="office">Office</option>
+      <option value="remote">Remote</option>
+      <option value="field">Field</option>
+    </select>
+
+    <button id="submitBtn">Get Career Recommendation</button>
+
+    <div class="result" id="resultBox">
+      <h3>Recommended Careers</h3>
+      <div id="careerList"></div>
+    </div>
+  </div>
+
+  <footer>
+    © 2024 CareerPulse AI | MVP Demo
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
